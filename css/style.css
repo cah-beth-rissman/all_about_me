@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    width: 1010px;
+}
+
+/* {
+
+    outline: dashed 2px rgb(100,100,100);
+} */
+
+main  {
+    background-color: antiquewhite;
+    height: 500px;
+
+}
+
+footer {
+    background-color: beige;
+    height: 500px;
+
+}
+
+ul {
+    margin: 20px;
+    padding: 30px;
+
+
+
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+
+/* id - pound sign */
+
+#another-style {
+background-color: gold;
+color: aliceblue;
+}
+
+.more-style {
+background-color: chocolate;
+
+}
