@@ -1,7 +1,12 @@
 body {
-    background-color: blanchedalmond;
+    /* background-color: #303655; */
+    background-color: #BFCBCE;
+    /* background-color: #84A7BA; */
+    /* background-color: #6F90AF; */
+    color:#303655;
     margin: 0 auto;
-    width: 1010px;
+    width: 1500px;
+    padding: 100px;
 }
 
 /* {
@@ -10,20 +15,25 @@ body {
 } */
 
 main  {
-    background-color: antiquewhite;
-    height: 500px;
+    background-color: #84A7BA;
+    color:#303655;
+    height: 250px;
+    padding: 100px;
 
 }
 
 footer {
-    background-color: beige;
+    background-color: #6F90AF;
+    color:#303655;
     height: 500px;
+    padding: 100px;
 
 }
 
 ul {
     margin: 20px;
     padding: 30px;
+    color:#303655;
 
 
 
@@ -32,8 +42,9 @@ ul {
 ul li {
     display: inline;
     padding: 10px;
-    background-color: darkorange;
+    background-color: #6F90AF;
     border-radius: 15px;
+    color:#303655;
 }
 
 /* id - pound sign */
