@@ -2,7 +2,10 @@
 'use strict';
 console.log('The JS file is alive');
 
+//prompt 1
+
 // Prompt users for input
+
     let userName = prompt('What is your name?');
     let toLowerCaseName = userName.toLowerCase();
     console.log('User name is: ', userName);
@@ -11,42 +14,90 @@ console.log('The JS file is alive');
 
 // Validate the input using some conditional logic
 
-// if(typeOf(userName) = "");  {
-// alert('Welcome to the All About Me page ' + userName);
-// } 
-//     else 
-//     {
-//     alert('Please enter your name.')
-// }
+if(toLowerCaseName === 'beth' || toLowerCaseName === 'eva' || toLowerCaseName === 'leah' || toLowerCaseName === 'craig' || toLowerCaseName === 'katie' || toLowerCaseName === 'ruthann'){
+    // we have access to our global variables. 
 
-// if(meet this condition then do the else){
-// } else {
-// }
-// if(toLowerCaseName === 'bob' || lowerCaseName === 'larry') {
-// alert('Welcome back to the site: ' + userName);
-// } else {
-//     alert('Welcome new user to my page!');
-// }
+      alert('Welcome back to the site, ' + userName);
+    
+    } else {
+      alert('Welcome, new friend!');
+    }
+ // prompt 2
 
-// // userName.toLowerCase or the userName.toUpperCase(); 
-// let toLowerCaseName = userName.toLowerCaseName();
-// console.log('Name Lower Case: ', toLowerCaseName);
+ // Prompt users for input
 
-//look at some data types: boolean, string, number, undefined, null
+ let petInfo= prompt('Do you have a pet?');
+ let toUpperCasePetInfo = petInfo.toUpperCase();
+ console.log('pet, y or n: ', petInfo);
+ console.log('pet info upper case: ', toUpperCasePetInfo);
 
-// let myBooleanValueTrue = true;
-// let myBooleanValueFalse = false;
-// let thirdBooleanValueTrue = true;
+// Validate the input using some conditional logic
 
-// if
+if(toUpperCasePetInfo === 'Y' || toUpperCasePetInfo === 'YES'){
+ // we have access to our global variables. 
 
+ alert('Congratulations on beng a pet owner, ' + userName + '! I have a dog and two cats.');
+ 
+ } else {
+   alert('Life is lonely without a pet!');
+ }
 
+// prompt 3
 
-// introduction to arrays
+// Prompt users for input
 
+let nativeInfo = prompt('Are you a Native Iowan');
+let toUpperCaseNativeInfo = nativeInfo.toUpperCase();
+console.log('native, y or n: ', nativeInfo);
+console.log('native info upper case: ', toUpperCaseNativeInfo);
 
-// methods we are learning
-// prompt(), typeof(), toLowerCase(), toUpperCase()
+// Validate the input using some conditional logic
 
-// technical requirements for lab
+if(toUpperCaseNativeInfo === 'Y' || toUpperCaseNativeInfo === 'YES'){
+// we have access to our global variables. 
 
+  alert('We are both Native Iowans!');
+
+} else {
+  alert('Hmmmm, wonder where you are from?');
+}
+
+// prompt 4
+
+// Prompt users for input
+
+ let kidInfo = prompt('Do you have children?');
+ let toUpperCaseKidInfo = kidInfo.toUpperCase();
+ console.log('children?: ', kidInfo);
+ console.log('kid info upper case: ', toUpperCaseKidInfo);
+
+// Validate the input using some conditional logic
+
+if(toUpperCaseKidInfo === 'N' || toUpperCaseKidInfo === 'NO'){
+ // we have access to our global variables. 
+
+   alert('Kids are not for everyone, ' + userName) + '!';
+ 
+ } else {
+   alert('I have children, too ' + userName + '. Two girls to be exact!');
+ }
+
+// prompt 5
+
+// Prompt users for input
+
+  let travelInfo = prompt('Are you a fan of travelling?');
+  let toLowerCaseTravelInfo = travelInfo.toLowerCase();
+  console.log('travel info value', travelInfo);
+  console.log('travel info lower case ', toLowerCaseTravelInfo);
+
+// Validate the input using some conditional logic
+
+if(toLowerCaseTravelInfo === 'no' && toLowerCaseTravelInfo === 'yes'){
+  // we have access to our global variables. 
+
+    alert('Let us head out on adventure, ' + userName + '!');
+  
+  } else {
+    alert('This alert should never be triggered!');
+  }
