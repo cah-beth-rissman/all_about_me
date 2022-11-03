@@ -2,14 +2,18 @@
 
 ## All About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+App to learn more about me as a DeltaV student. Adding to the application as I learn new technologies and features. 
 
 ### Author: Beth Rissman
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
 * Any Links you used as reference
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Class 02 Learning Journal
+  * Working to understand CSS ids and classes.
+  * I enjoy learning JavaScript.
+  * I do not enjoy styling. I have no patience for colors and arrangement on a page.
+  * The developer tools contain much useful information and is a great place to learn about the box model and play with styling.
+  * Testing out JS in the console is a great learning tool to gain understanding and test out code while learning.
+  * It's very humbling to show your code to the class, but a good way to learn togther and get better. 
