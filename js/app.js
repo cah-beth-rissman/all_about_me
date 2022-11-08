@@ -15,7 +15,7 @@ let loopcounter = 0;
 
 //-------------------------
 
-function getUserName() {
+function getUserName(){
   userName = prompt("What is your name?");
   let toLowerCaseName = userName.toLowerCase();
   console.log("User name is: ", userName);
@@ -149,14 +149,11 @@ function getFavNumber() {
     );
     if (favNumber > "16") {
       alert("Your guess is too high! Try again.");
-      console.log(attempts);
     } else if (favNumber < "16") {
       alert("Your guess is too low. Try again");
-      console.log(attempts);
     } else {
       alert("Great guess, " + userName + ". My favorite number is 16!");
       userPoints++;
-      console.log(attempts);
     }
     if (loopcounter === 5) {
       alert("You've run out of guesses. The correct answer is 16.");
@@ -188,6 +185,7 @@ function getCookieInfo() {
     if (cookieInfo.indexOf(cookieInfo) >= 0) {
       userPoints++;
       console.log("user entered cookie flavor ", cookieInfo);
+      console.log("attempt counter: ", attempts);
       correctAnswer = true;
       alert(
         "Correct, a " +
@@ -197,7 +195,6 @@ function getCookieInfo() {
     } else {
       alert("That is not one of my favorites.");
     }
-    attempts++;
     console.log("Logging cookie answer", cookieInfo);
     console.log("Logging cookie answer", userPoints);
   }
@@ -211,7 +208,7 @@ alert(
     userName +
     ", you learned a few things about me and earned some points! You earned " +
     userPoints +
-    " , great job!"
+    " points, great job!"
 );
 
 //  add attempt counter, why is everything logging at the end?

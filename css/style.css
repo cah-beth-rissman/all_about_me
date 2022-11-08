@@ -1,42 +1,100 @@
+main {
+    background-color: #7CB6EB;
+    color: #000000;
+    border: 8px solid #6D6D6D;
+    padding: 10px;
+    margin: 4px;
+    font-family: 'times new roman';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    cursor: pointer;
+    float: left;
+  }
+  
+
+
+
+
+
 body {
     /* background-color: #303655; */
-    background-color: #BFCBCE;
+    /* background-color: #BFCBCE; */
     /* background-color: #84A7BA; */
     /* background-color: #6F90AF; */
-    color:#303655;
+    /* color:#303655;
     margin: 0 auto;
     width: 1500px;
-    padding: 100px;
+    padding: 100px; */
+
+    background-color: #BFCBCE;
+    color:#303655;
+    border: 8px solid #6D6D6D;
+    padding: 10px;
+    margin: 4px;
+    font-family: 'times new roman';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    cursor: pointer;
+    float: left;
+   
+}
+.block-level {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    position: relative;
+    float: left;
 }
 
-/* {
-
-    outline: dashed 2px rgb(100,100,100);
-} */
-
-main  {
+h1 {
+    clear: both;
+    font-size: 3em;
+}
+/* main  {
     background-color: #84A7BA;
     color:#303655;
-    height: 250px;
-    padding: 10px, 10px, 10px, 10px;
-
-}
+    height: 360px;
+    width: 100%;
+   
+    text-align: center;
+    
+} */
 
 footer {
     background-color: #6F90AF;
     color:#303655;
-    height: 500px;
-    padding: 100px;
-
+    height: 200px;
+    clear: both;
+    color:#303655;
+    border: 8px solid #6D6D6D;
+    padding: 10px;
+    margin: 4px;
+    font-family: 'times new roman';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    cursor: pointer;
+    float: left;
 }
 
 ul {
     margin: 20px;
     padding: 30px;
     color:#303655;
-
-
-
 }
 
 ul li {
@@ -46,5 +104,55 @@ ul li {
     border-radius: 15px;
     color:#303655;
 }
-
+ol {
+    padding-left: 20px;
+}
 /* id - pound sign */
+
+section p {
+    padding: 10px;
+}
+
+.block-level {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    position: relative;
+    float: left;
+}
+
+
+.section-boxes {
+    height: 300px;
+    width: 30%;
+    background-color: #7cb6eb;
+    margin: 0px 10px 20px 20px;
+    float: left;
+}
+
+
+ /* ids  */
+ #bio {
+ height: 300px;
+ width: 30%;
+ background-color: #7cb6eb;
+ margin: 0px 10px 20px 60px;
+ float: left;
+ 
+}
+
+#jobs {
+    height: 300px;
+    width: 30%;
+    background-color: #7cb6eb;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+
+#passions{
+    height: 300px;
+    width: 30%;
+    background-color: #7cb6eb;
+    margin: 0px 0px 10px 0px;
+    float: left;
+}
