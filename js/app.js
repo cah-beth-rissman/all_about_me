@@ -185,8 +185,6 @@ function getCookieInfo() {
     let cookieInputToLowerCase = cookieInput.toLowerCase();
     if (cookieInfo.indexOf(cookieInputToLowerCase) >= 0) {
       userPoints++;
-      console.log('user entered cookie flavor ', cookieInput);
-      console.log('attempt counter: ', attempts);
       correctAnswer = true;
       alert(
         'Correct, a ' +
@@ -196,7 +194,9 @@ function getCookieInfo() {
     } else {
       alert('That is not one of my favorites.');
     }
-    console.log('Logging cookie answer', userPoints);
+    attempts++;
+    console.log('user entered cookie flavor ', cookieInput);
+    console.log('Logging user attempts', attempts);
   }
 }
 getCookieInfo();
@@ -210,5 +210,7 @@ alert(
     userPoints +
     ' points, great job!'
 );
+
+console.log('The JS file has ended');
 
 // --------------------------------------end of code
