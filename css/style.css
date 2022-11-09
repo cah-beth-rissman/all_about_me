@@ -26,10 +26,10 @@ body {
     /* background-color: #BFCBCE; */
     /* background-color: #84A7BA; */
     /* background-color: #6F90AF; */
-    /* color:#303655;
+    /* background-color:#303655; */
     margin: auto;
     width: 1500px;
-    padding: 100px; */
+    padding: 100px;
     background-color: #303655;
     color:#303655;
     border: 8px solid #6F90AF;
@@ -42,16 +42,8 @@ body {
     text-transform: none;
     position: relative;
     cursor: pointer;
-    float: left;
-   
 }
-/* .list {
-    /* width: 120px; */
-    /* height: 120px; */
-    /* margin: 20px; */
-    /* position: relative; */
-    /* float: left; */
-} */
+
 h1 {
     clear: both;
     font-size: 5em;
@@ -66,7 +58,6 @@ h1 {
     text-transform: none;
     position: relative;
     cursor: pointer;
-    float: left;
     color: whitesmoke;
 }
 h2 {
@@ -75,7 +66,6 @@ h2 {
     padding: 10px;
     margin: 4px;
     font-family: 'times new roman';
-    font-style: ;
     font-weight: normal;
     font-variant: normal;
     text-align: left;
@@ -83,7 +73,6 @@ h2 {
     text-transform: none;
     position: relative;
     cursor: pointer;
-    float: left;
     color: white;
 }
 p {
@@ -100,17 +89,18 @@ p {
     text-transform: none;
     position: relative;
     cursor: pointer;
-    float: left;
     color: navy;
 }
-/* main  {
-    background-color: #84A7BA;
-    color:#303655;
-    height: 360px;
-    width: 100%;
-    text-align: center;
+/* 
+    main  {
+        background-color: #84A7BA;
+        color:#303655;
+        height: 360px;
+        width: 100%;
+        text-align: center;
     
-} */
+} 
+*/
 
 footer {
     background-color: #6F90AF;
@@ -130,38 +120,39 @@ footer {
     text-transform: none;
     position: relative;
     cursor: pointer;
-    float: left;
     width: 90%;
-    
 }
-  /* li { */
-    /* counter-increment: item; */
-    /* margin: 5px; */
-  /* } */
-  /* li:before {
-    /* margin-right: 10px; */
-    /* content: counter(item); */
-    /* background: lightblue; */
-    /* border-radius: 100%; */
-    /* color: white; */
-    /* width: 1.2em; */
-    /* text-align: center; */
-    /* display: inline-block; */
-  /* }
+
+  li {
+    margin: 5px;
+}
+
+/* li:defined  { 
+    margin-right: 10px; 
+    content: counteritem);
+    background: lightblue;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+*/
 
 
 ol {
     list-style-type: square;
-    /* counter-reset: item; */
-    /* display: inline; */
+    counter-reset: item;
+    display: inline;
     margin: 20px;
     padding: 30px;
-    /* padding-top: 400px; */
+    padding-top: 400px;
     padding-left: 20px;
-    /* background-color: #6F90AF; */
     border-radius: 15px;
-    color:#303655;
 }
+
+
+
 
  /* ids  */
  
@@ -170,8 +161,6 @@ ol {
  width: 30%;
  background-color: #7cb6eb;
  margin: 0px 00px 00px 00px;
- float: left;
- 
 }
 
 #jobs {
@@ -179,7 +168,6 @@ ol {
     width: 30%;
     background-color: #7cb6eb;
     margin: 0px 10px 10px 0px;
-    float: left;
 }
 
 /* #passions{
@@ -187,5 +175,4 @@ ol {
     width: 30%;
     background-color: #7cb6eb;
     margin: 0px 0px 10px 0px;
-    float: left;
 } */
