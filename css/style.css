@@ -9,6 +9,7 @@ main {
     border: 8px solid #6F90AF;
     padding: 10px;
     margin: 4px;
+    margin-left: 160px;
     font-family: 'times new roman';
     font-style: normal;
     font-weight: normal;
@@ -53,7 +54,7 @@ h1 {
     font-style: ;
     font-weight: normal;
     font-variant: normal;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     text-transform: none;
     position: relative;
@@ -77,7 +78,7 @@ h2 {
 }
 p {
     clear: both;
-    font-size: 2em;
+    font-size: 1em;
     padding: 10px;
     margin: 4px;
     font-family: 'times new roman';
@@ -104,12 +105,12 @@ p {
 
 footer {
     background-color: #6F90AF;
-    height: 35px;
+    height: px;
     clear: both;
     color:#303655;
     border: 8px solid #a5c4e0;
-    padding: 10px;
-    margin: 14px;
+    padding: 2px;
+    margin: 20px;
     margin-left: 65px;
     font-family: 'times new roman';
     font-style: normal;
@@ -124,31 +125,25 @@ footer {
 }
 
   li {
-    margin: 5px;
+    margin: 25px;
 }
 
-/* li:defined  { 
-    margin-right: 10px; 
-    content: counteritem);
-    background: lightblue;
-    border-radius: 100%;
-    color: white;
-    width: 1.2em;
-    text-align: center;
-    display: inline-block;
+ul {
+    margin: 2px;
+    padding: 3px;
+    padding-left: 1px;
+    color: blue
 }
-*/
-
 
 ol {
     list-style-type: square;
     counter-reset: item;
     display: inline;
     margin: 20px;
-    padding: 30px;
-    padding-top: 400px;
-    padding-left: 20px;
+    padding-top: 300px;
+    padding-left: 30px;
     border-radius: 15px;
+    color: whitesmoke
 }
 
 
