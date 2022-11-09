@@ -154,6 +154,7 @@ function getFavNumber() {
     } else {
       alert('Great guess, ' + userName + '. My favorite number is 16!');
       userPoints++;
+      break;
     }
     if (loopcounter === 5) {
       alert('You\'ve run out of guesses. The correct answer is 16.');
@@ -178,24 +179,23 @@ function getCookieInfo() {
   let correctAnswer = false;
 
   while (attempts !== 6 && correctAnswer === false) {
-    let cookieInfo = prompt(
+    let cookieInput = prompt(
       'Cookies are a sweet treat. Guess one of my favorite cookie flavors.'
     );
-    // let cookieInfoToLowerCase = cookieInfoToLowerCase.toLowerCase();
-    if (cookieInfo.indexOf(cookieInfo) >= 0) {
+    let cookieInputToLowerCase = cookieInput.toLowerCase();
+    if (cookieInfo.indexOf(cookieInputToLowerCase) >= 0) {
       userPoints++;
-      console.log('user entered cookie flavor ', cookieInfo);
+      console.log('user entered cookie flavor ', cookieInput);
       console.log('attempt counter: ', attempts);
       correctAnswer = true;
       alert(
         'Correct, a ' +
-          cookieInfo +
+          cookieInput +
           ' cookie is one of my favorite cookies to eat. Chocolate chip, sugar, monster, snickerdoodle and shortbread cookies are all great flavors.'
       );
     } else {
       alert('That is not one of my favorites.');
     }
-    console.log('Logging cookie answer', cookieInfo);
     console.log('Logging cookie answer', userPoints);
   }
 }
@@ -210,7 +210,5 @@ alert(
     userPoints +
     ' points, great job!'
 );
-
-//  add attempt counter, why is everything logging at the end?
 
 // --------------------------------------end of code

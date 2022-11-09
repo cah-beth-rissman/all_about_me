@@ -23,11 +23,6 @@ main {
   }
   
 body {
-    /* background-color: #303655; */
-    /* background-color: #BFCBCE; */
-    /* background-color: #84A7BA; */
-    /* background-color: #6F90AF; */
-    /* background-color:#303655; */
     margin: auto;
     width: 1500px;
     padding: 100px;
@@ -39,9 +34,6 @@ body {
     font-weight: normal;
     font-variant: normal;
     text-align: left;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
     cursor: pointer;
 }
 
@@ -55,53 +47,33 @@ h1 {
     font-weight: normal;
     font-variant: normal;
     text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
     cursor: pointer;
     color: whitesmoke;
 }
+
 h2 {
-    clear: both;
     font-size: 2em;
     padding: 10px;
     margin: 4px;
     font-family: 'times new roman';
-    font-weight: normal;
-    font-variant: normal;
     text-align: left;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
     cursor: pointer;
     color: white;
 }
+
 p {
     clear: both;
     font-size: 1em;
-    padding: 10px;
-    margin: 4px;
+    padding: 3px;
+    margin: 5px;
     font-family: 'times new roman';
     font-style: light;
     font-weight: normal;
     font-variant: normal;
     text-align: left;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
     cursor: pointer;
     color: navy;
 }
-/* 
-    main  {
-        background-color: #84A7BA;
-        color:#303655;
-        height: 360px;
-        width: 100%;
-        text-align: center;
-    
-} 
-*/
 
 footer {
     background-color: #6F90AF;
@@ -117,57 +89,53 @@ footer {
     font-weight: normal;
     font-variant: normal;
     text-align: left;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
     cursor: pointer;
     width: 90%;
 }
 
-  li {
+li {
     margin: 25px;
 }
 
 ul {
-    margin: 2px;
-    padding: 3px;
+    margin: 0px;
     padding-left: 1px;
-    color: blue
+    color: navy
 }
 
 ol {
-    list-style-type: square;
+    list-style-type: none;
     counter-reset: item;
-    display: inline;
-    margin: 20px;
-    padding-top: 300px;
-    padding-left: 30px;
+    /* display: inline; */
+    text-align: center;
+    margin: 30px;
+    padding-top: 10px;
+    padding-left: 50x;
     border-radius: 15px;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
-
-
-
- /* ids  */
- 
- #bio {
- height: 30px;
- width: 30%;
- background-color: #7cb6eb;
- margin: 0px 00px 00px 00px;
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0.75;
 }
 
-#jobs {
+.info {
+    height: 30px;
+    width: 30%;
+    background-color: #4397e4;
+    margin: 0px 00px 00px 00px;
+}
+
+#topten {
     height: 35px;
-    width: 30%;
-    background-color: #7cb6eb;
+    width: 100%;
+    background-color: #4397e4;
     margin: 0px 10px 10px 0px;
+    text-align: center;
 }
-
-/* #passions{
-    height: 300px;
-    width: 30%;
-    background-color: #7cb6eb;
-    margin: 0px 0px 10px 0px;
-} */
